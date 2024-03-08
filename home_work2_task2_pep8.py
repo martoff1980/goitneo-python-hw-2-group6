@@ -30,7 +30,7 @@ class Phone(Field):
             .replace(" ", "")
         )
 
-        if len(self.value) != 0:
+        if len(self.value) != 10:
             self.value = "0000000000"
 
 
